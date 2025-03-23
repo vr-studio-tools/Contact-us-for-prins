@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Google Fonts for Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="contact-page">
+    <!-- Floating shapes -->
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <!-- Header -->
+    <header>
+      <h1>Let's Contact Us</h1>
+    </header>
+    <!-- Buttons -->
+    <section class="buttons">
+      <a href="https://wa.me/your-number" class="button whatsapp">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+      <a href="https://instagram.com/your-profile" class="button instagram">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+    </section>
+    <!-- QR Code -->
+    <section class="qr-code">
+      <p>Scan to connect</p>
+      <img src="qr-code.png" alt="QR Code" id="qr-image">
+      <div class="qr-actions">
+        <button class="share-btn" id="share-qr">
+          <i class="fas fa-share-alt"></i> Share
+        </button>
+        <button class="download-btn" id="download-qr">
+          <i class="fas fa-download"></i> Download
+        </button>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <p>Contact Us Panel. Made with <span class="heart">❤️</span> by Ustylecode</p>
+    </footer>
+  </div>
+  <!-- GSAP Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
